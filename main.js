@@ -201,3 +201,13 @@ const whosNot21 = (array) => {
 };
 
 whosNot21(arrayOfPeople);
+
+var a = new Array(6);
+console.log(a.length); //prints "6"
+console.log(a[0]); //prints "undefined"
+console.log(a); //prints an array with 6 empty elements.
+
+var b = new Array(1, 6);
+console.log(b.length); //prints "2"
+console.log(b[0]); //prints "1"
+console.log(b); //prints an array with 2 elements "1" and "6"
